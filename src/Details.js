@@ -2,13 +2,8 @@ import React from "react";
 import pet from "@frontendmasters/pet";
 
 class Details extends React.Component {
-  constructor(props) {
-    super(props);
+  state = { loading: true };
 
-    this.state = {
-      loading: true
-    };
-  }
   // run only once
   componentDidMount() {
     // usefull for ajax request
