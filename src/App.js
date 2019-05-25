@@ -6,7 +6,6 @@ import Details from "./Details";
 import NotFound from "./NotFound";
 
 const App = () => {
-  // tomorrow continue with React
   return (
     <React.StrictMode>
       <div>
