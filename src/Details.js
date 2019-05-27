@@ -4,10 +4,10 @@ import Carousel from "./Carousel";
 import ErrorBoundary from "./ErrorBoundary";
 import ThemeContext from "./ThemeContext";
 import { navigate } from "@reach/router";
-// import Modal from "./Modal";
+import Modal from "./Modal";
 
 // you can use top Suspense declared in App if none in file is found
-const Modal = lazy(() => import("./Modal"));
+// const Modal = lazy(() => import("./Modal"));
 
 class Details extends React.Component {
   state = { loading: true, showModal: false };
