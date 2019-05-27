@@ -10,7 +10,7 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build --public-url ./dist/ src/index.html",
-    "start": "npm run build && babel-node server/index.js"
+    "start": "npm -s run build && babel-node server/index.js"
   },
   "keywords": [],
   "author": "",
